@@ -30,10 +30,10 @@ function Index(props) {
     return props.people.map(person => (
       <div key={person._id} className="person">
         {/* <Link to={`/people/${person._id}`}> */}
-          <h1>{person.name}</h1>
+          <h2>{person.name}</h2>
         {/* </Link> */}
         <h2>{person.iAmG}</h2>
-        <h3>{person.date}</h3>
+        <h2>{person.date}</h2>
       </div>
     ));
   }
